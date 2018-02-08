@@ -1,0 +1,33 @@
+name = 'Geek Label'
+description = A custom theme for Geek label
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+regions[content]        = 'Content'
+regions[header]         = 'Header'
+regions[design]         = 'Design'
+regions[build]          = 'Build'
+regions[design_build]   = 'Design Build'
+regions[services]       = 'Services'
+regions[clients]        = 'Clients'
+regions[contact]        = 'Contact'
+regions[contact_desktop]= 'Contact Desktop'
+regions[contact_mobile] = 'Contact Mobile'
+regions[map]            = 'Map'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = assets/css/style.css
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = assets/js/custom.js
