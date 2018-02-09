@@ -3,6 +3,7 @@
   <div class="container page-content__container">
     <div class="row">
       <div class="col-md-12 ">
+        <?php print $messages; ?>
         <?php print render($page['content']); ?>
       </div>
       <div class="clearfix"></div>
