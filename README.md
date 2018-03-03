@@ -8,6 +8,8 @@ A custom Drupal 7 Theme based on Bootstrap
 - Bootstrap is used as parent theme.
 - Google Map API is used for the MAP.
 
+Link to the site (Hosted on a free tier AWS account): http://52.43.149.158/geek-label/
+
 External modules and libraries used:
 - Bootstrap
 - CKEditor
